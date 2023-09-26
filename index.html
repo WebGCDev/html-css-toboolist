@@ -1,16 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- /Google Fonts -->
+
     <!-- Inclusione CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href=".css/style.css" />
     <!-- /Inclusione CSS -->
 </head>
+
 <body>
-    <header></header>
-    <div>LogoBool</div>
-    <main></main>
-</body>
+    <header>
+    <div id="logo"></div>
+    <h1>Toboolist</h1>
+</header>
+<!-- Section Button PlusTask/Section -->
+     <div class="button">
+        <input class="buttonaddtask" type="button" value="Add Task" />
+        <input type="button" value="Add Section" />
+     </div>
+
+
+
+<!-- /Section Button PlusTask/Section -->
+    <main>
+        <div class="container">
+            <!-- Section New Task -->
+            <section>
+                <h2>&#9660; New Task</h2>
+                <ul>
+                    <li><span class="element"></span>Quarterly Newsletter</li>
+                </ul>
+            </section>
+            <!-- /Section New Task -->
+
+            <!-- Section Today -->
+            <section>
+                <h2>&#9660; Today</h2>
+                <ul>
+                    <li><span class="element"></span>Recruiting blog post</li>
+                    <li>Mobile app luaunch</li>
+                    <li>Interview John H.</li>
+                    <li>Summit uptade to mobile storefronts</li>
+                </ul>
+            </section>
+            <!-- /Section Today -->
+
+            <!-- Section Upcoming -->
+            <section>
+                <h2>&#9660; Upcoming</h2>
+                <ul>
+                    <li><span class="elementred"></span>Schedule meeting with Alex</li>
+                    <li>Homepage refresh</li>
+                    <li>Onboard new Sales team members</li>
+                    <li>Review editorial calendar</li>
+                </ul>
+            </section>
+            <!-- /Section Upcoming -->
+        </div>
+    </main>
+  </body>
 </html>
