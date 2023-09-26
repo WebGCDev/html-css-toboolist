@@ -1,5 +1,5 @@
 #logo {
-    background-image: url(/img/Logo.png);
+    background-image: url('../img/Logo.png');
     vertical-align: middle;
 }
 
@@ -21,13 +21,12 @@ h1 {
 
 .buttonaddtask {
     background-color: #14aaf5;
-    
 
-}
+    }
 
 
 main {
-    background-color: aqua;
+    background-color: #c9c9c9;
 }
 
 .container {
@@ -39,14 +38,47 @@ main {
 
 ul {
     list-style: none;
-
 }
 
 .element {
     display: inline-block;
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     border: 1px solid green;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    color: green;
+}
+
+li{
+    margin: 23px 0 0 5px;
+}
+
+li::before{
+    content: '\2713';
+    margin-right: 10px;
+    border: 1px solid green;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    color: green;
+}
+
+.element-list::before{
+    content: '\2713';
+    margin-right: 10px;
+    border: 1px solid red;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    color: red;
+
 }
 
 .elementred {
